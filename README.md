@@ -35,4 +35,4 @@ The application consists of the following components:
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_accept_change.png)
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_permissions_allowed.png)
 
-![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/Screenshot%202025-01-30%20164912.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/Screenshot%202025-01-30%20165357.png)
