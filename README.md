@@ -35,4 +35,22 @@ The application consists of the following components:
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_accept_change.png)
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_permissions_allowed.png)
 
-![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/Screenshot%202025-01-30%20165357.png)
+## The Project
+The app consists of 3 screens:
+- Music List
+- Music Player
+- Settings
+
+![Music List](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_music_list.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_music_player.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_settings.png)
+
+All screens are also responsive for landscape mode
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_music_list_landscape.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_music_player_landscape.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_settings_landscape.png)
+
+When a song is playing, a notification is displayed
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_notification.png)
+
+
