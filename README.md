@@ -30,3 +30,4 @@ The application consists of the following components:
 - Allow management of files > Allow
 
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_permissions_allowed.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_app_info.png)
