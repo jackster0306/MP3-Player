@@ -45,12 +45,17 @@ The app consists of 3 screens:
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_music_player.png)
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_settings.png)
 
+
 All screens are also responsive for landscape mode
+
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_music_list_landscape.png)
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_music_player_landscape.png)
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_settings_landscape.png)
 
+
+
 When a song is playing, a notification is displayed
+
 ![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_notification.png)
 
 
