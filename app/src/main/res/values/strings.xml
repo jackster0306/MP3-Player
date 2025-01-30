@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Coursework1</string>
+    <string name="music_player_button">Music Player</string>
+    <string name="music_list_button">Music List</string>
+    <string name="settings_button">Settings</string>
+    <string name="playback_speed_label">Playback Speed:</string>
+    <string name="background_colour_label">Background Colour:</string>
+    <string name="white_label">White</string>
+    <string name="red_label">Red</string>
+    <string name="blue_label">Blue</string>
+    <string name="update_button">Update Playback Speed</string>
+</resources>

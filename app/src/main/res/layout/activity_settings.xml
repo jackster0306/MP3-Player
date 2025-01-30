@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <data>
+
+    <variable
+        name="viewModel"
+        type="com.psyjg14.coursework1.viewmodel.SettingsViewModel" />
+  </data>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/settingsLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@{viewModel.getBackgroundColourAsInt()}"
+      tools:context=".view.SettingsActivity">
+
+    <TextView
+        android:id="@+id/playbackSpeedTextViewSettings"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/playback_speed_label"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/playbackSpeedNumViewSettings"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="@={viewModel.playbackSpeed}"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/playbackSpeedTextViewSettings" />
+
+    <TextView
+        android:id="@+id/backgroundColourViewSettings"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/background_colour_label"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateButtonSettings" />
+
+    <RadioGroup
+        android:id="@+id/backgroundColourGroupSettings"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backgroundColourViewSettings">
+
+      <RadioButton
+          android:id="@+id/whiteRadioButtonSettings"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:checked="@={viewModel.isWhiteChecked}"
+          android:onClick="@{() -> viewModel.onWhiteClicked()}"
+          android:text="@string/white_label" />
+
+      <RadioButton
+          android:id="@+id/redRadioButtonSettings"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:checked="@={viewModel.isRedChecked}"
+          android:onClick="@{() -> viewModel.onRedClicked()}"
+          android:text="@string/red_label" />
+
+      <RadioButton
+          android:id="@+id/blueRadioButtonSettings"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:checked="@={viewModel.isBlueChecked}"
+          android:onClick="@{() -> viewModel.onBlueClicked()}"
+          android:text="@string/blue_label" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+      <Button
+          android:id="@+id/musicListButtonSettings"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="onBackClicked"
+          android:text="@string/music_list_button" />
+
+      <Button
+          android:id="@+id/settingsButtonSettings"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#00FFFFFF"
+          android:text="@string/settings_button"
+          android:textColor="#000000" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updateButtonSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:onClick="onSaveClicked"
+        android:text="@string/update_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playbackSpeedNumViewSettings" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
