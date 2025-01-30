@@ -28,8 +28,8 @@ The application consists of the following components:
 - Go to Settings > Apps > All Apps > Select the app.
 - Go to Permissions > File and media
 - Allow management of files > Allow
-https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_app_info.png
-https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_app_permissions.png
-https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_media_permissions.png
-https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_accept_change.png
-https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_permissions_allowed.png
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_app_info.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_app_permissions.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_media_permissions.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_accept_change.png)
+![](https://github.com/jackster0306/MP3-Player/blob/master/screenshots/screen_permissions_allowed.png)
