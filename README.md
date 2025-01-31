@@ -16,6 +16,10 @@ The application consists of the following components:
 - A service to provide continued playback in the background.
 - A notification to alert the user when music is currently playing.
 
+### Developed Using
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Android Studio](https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white)
+
 
 ## How to Install & Run the Application
 
